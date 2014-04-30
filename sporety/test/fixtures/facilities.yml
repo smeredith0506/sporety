@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  location: MyString
+  game_types: MyString
+  hours: 2014-04-30 17:07:46
+  fee: 9.99
+  membership: false
+
+two:
+  location: MyString
+  game_types: MyString
+  hours: 2014-04-30 17:07:46
+  fee: 9.99
+  membership: false

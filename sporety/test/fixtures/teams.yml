@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  game_types: MyString
+  min_players: 1
+  max_players: 1
+  players: MyString
+  matches: MyString
+
+two:
+  game_types: MyString
+  min_players: 1
+  max_players: 1
+  players: MyString
+  matches: MyString
