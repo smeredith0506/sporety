@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  game_types: MyString
+  availabilities: 2014-04-30 17:07:44
+  matches: 1
+  teams: MyString
+
+two:
+  game_types: MyString
+  availabilities: 2014-04-30 17:07:44
+  matches: 1
+  teams: MyString

@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Location:</strong>
+  <%= @facility.location %>
+</p>
+
+<p>
+  <strong>Game types:</strong>
+  <%= @facility.game_types %>
+</p>
+
+<p>
+  <strong>Hours:</strong>
+  <%= @facility.hours %>
+</p>
+
+<p>
+  <strong>Fee:</strong>
+  <%= @facility.fee %>
+</p>
+
+<p>
+  <strong>Membership:</strong>
+  <%= @facility.membership %>
+</p>
+
+<%= link_to 'Edit', edit_facility_path(@facility) %> |
+<%= link_to 'Back', facilities_path %>

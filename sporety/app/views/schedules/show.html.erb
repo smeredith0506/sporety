@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Players:</strong>
+  <%= @schedule.players %>
+</p>
+
+<p>
+  <strong>Locations:</strong>
+  <%= @schedule.locations %>
+</p>
+
+<p>
+  <strong>Facilities:</strong>
+  <%= @schedule.facilities %>
+</p>
+
+<p>
+  <strong>Matches:</strong>
+  <%= @schedule.matches %>
+</p>
+
+<p>
+  <strong>Game:</strong>
+  <%= @schedule.game %>
+</p>
+
+<%= link_to 'Edit', edit_schedule_path(@schedule) %> |
+<%= link_to 'Back', schedules_path %>
